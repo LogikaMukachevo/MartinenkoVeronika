@@ -2,13 +2,14 @@ body {
     font-family: sans-serif;
 }
 
+header:hover{
+    box-shadow: 5px 5px 10px 10px orange;
+}
+
 h1 {
     font-size: 50px;
     text-align: center;
 }
-
-
-
 
 nav {
     border-top: 3px solid royalblue;
@@ -77,9 +78,9 @@ h2 {
 }
 
 .product::before {
-    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
-    width: 30px;
-    height: 30px;
+    content: url("");
+    width: 10px;
+    height: 10px;
     display: block;
     opacity: 0.5;
     margin-bottom: 10px;
@@ -146,6 +147,10 @@ h2 {
     display: block;
     width: 45px;
     height: 10px;
+}
+
+.catalog1{
+    text-align: center;
 }
 
 footer {
